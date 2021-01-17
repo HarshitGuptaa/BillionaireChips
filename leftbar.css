@@ -1,0 +1,187 @@
+.left-container{
+    width: 280px;
+    height: 100vh;
+}
+
+.left-nav{
+    height: 110px;
+    background: #384462;
+    display: flex;
+}
+
+.left-nav-item{
+    border-right: 1px solid #06080F;
+    width: 34%;
+}
+
+.left-nav-item-icon .fa-clock{
+    margin-top: 55px;
+    color: white;
+    font-size: 170%;
+    width: 100%;
+    text-align: center;
+}
+
+.left-nav-item-icon svg{
+    margin-top: 55px;
+    height: 35px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.left-nav-item-icon .fa-clock{
+    margin-top: 55px;
+    color: white;
+    font-size: 170%;
+    width: 100%;
+    text-align: center;
+}
+
+.left-nav-item-name{
+    margin-top: 5px;
+    color: white;
+    font-size: 80%;
+    text-align: center;
+}
+
+.na{
+    margin-top: -3px;
+}
+
+.left-content{
+    height: calc(100vh - 110px);
+    overflow: auto;
+}
+
+.game{
+    color: aliceblue;
+    height: 45px;
+    border-top: 2px solid #06080F;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.game-content{
+    width: 225px;
+    margin-left: 10px;
+}
+
+.game-content i{
+    font-size:larger;
+}
+
+.name{
+    margin-left: 10px;
+    color: #5C6A94;
+}
+
+.star{
+    color: #5C6A94;
+}
+
+.football{
+    border-left : 4px solid #176247;
+}
+
+.fa-futbol{
+    color: white;
+}
+
+.basket{
+    border-left : 4px solid #D76732;
+}
+
+.basket .game-content i{
+    color: #D76732;
+}
+
+.Tennis{
+    border-left : 4px solid #71bb43;
+}
+
+.Tennis .game-content i{
+    color: #71bb43;
+}
+
+.VolleyBall{
+    border-left : 4px solid #E5E795;
+}
+
+.VolleyBall .game-content i{
+    color: #E5E795;
+}
+
+.TableTennis{
+    border-left : 4px solid #0C82B3;
+}
+
+.TableTennis .game-content i{
+    color: #0C82B3;
+}
+
+.Baseball{
+    border-left : 4px solid #60ACA9;
+}
+
+.Baseball .game-content i{
+    color: #60ACA9;
+}
+
+.IceHockey{
+    border-left : 4px solid #50A2C6;
+}
+
+.IceHockey .game-content i{
+    color: #50A2C6;
+}
+
+.Handball{
+    border-left : 4px solid #42777F;
+}
+
+.Handball .game-content i{
+    color: #42777F;
+}
+.Badminton{
+    border-left : 4px solid #E7685C;
+}
+
+.Badminton .game-content i{
+    color: #E7685C;
+}
+.Cricket{
+    border-left : 4px solid #70C2A7;
+}
+
+.Cricket .game-content i{
+    color: #70C2A7;
+}
+.MMA{
+    border-left : 4px solid #868686;
+}
+
+.MMA .game-content i{
+    color: #868686;
+}
+.Futsal{
+    border-left : 4px solid #65B5C2;
+}
+
+.Futsal .game-content i{
+    color: #65B5C2;
+}
+.Snooker{
+    border-left : 4px solid #37B764;
+}
+
+.Snooker .game-content i{
+    color: #37B764;
+}
+.Boxing{
+    border-left : 4px solid #50A2C6;
+}
+
+.Boxing .game-content i{
+    color: #50A2C6;
+}

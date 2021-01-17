@@ -1,0 +1,517 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nav{
+    height: 48px;
+    width: 100vw;
+    background: #171C2C;
+    display: flex;
+    border-bottom: 4px solid #9C2490;
+    position: fixed;
+}
+
+.icon{
+    color:#999BA2;
+    width: 40px;
+    font-size:x-large;
+    padding-left: 7px;
+    padding-top: 6px;
+}
+.logo{
+    width: calc(100vw - 140px);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.chips{
+color: #9C2490;
+font-size: xx-large;
+}
+
+.auth{
+    display:flex;
+    width: 90px;
+    align-items: center;
+    position: absolute;
+    right: 6px;
+    top: 14px;
+}
+
+.join{
+    color: #9C2490;
+    height: 25px;
+    /* margin-right: 5px; */
+}
+
+.login{
+    color: #999BA2;
+    height: 25px;
+    font-weight: 700;
+    margin-left: 7px;
+}
+
+.content{
+    background: #171C2C;
+    /* height: calc(100vh - 50px); */
+    overflow: hidden;
+    display: flex;
+
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+    /* background-color: #F5F5F5; */
+	background-color: #38393F;
+    
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #38393F;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #88888C;
+}
+
+
+
+.right-container{
+    width: calc(100vw - 260px);
+    height: 100vh;
+    overflow: auto;
+}
+
+.upcoming{
+    background-color: #06080F;
+    height: 35px;
+    margin-top: 50px;
+    color:#88888C;
+    display: flex;
+    align-items: center;
+}
+
+.upcoming i{
+    color: #9C2490;
+    margin:0 10px;
+    font-size: large;
+}
+
+.right-nav{
+    background-color: #171C2C;
+    height: 65px;
+    display: flex;
+}
+
+
+.nav-game{
+    border-left: 1px solid #06080F;
+    width: 100px;
+    height: 100%;
+}
+
+.nav-game i{
+    width: 100%;
+    font-size: 180%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.game-name{
+    color:#BABBC0;
+    font-size: 78%;
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.fa-volleyball-ball{
+    color: #E5E795;
+}
+
+.fa-table-tennis{
+    color: #0C82B3;
+}
+
+.fa-baseball-ball{
+    color: #60ACA9;
+}
+
+.fa-hockey-spock{
+    color: #50A2C6;;
+}
+
+.fa-hand-spock{
+    color: #42777F;;
+}
+
+.fa-space-shuttle{
+    color: #E7685C;;
+}
+
+.fa-football-ball{
+    color: #65B5C2;
+}
+
+.fa-quidditch{
+    color: #37B764;
+}
+
+.fa-fist-raised{
+    color: #E5E795;;
+}
+
+.fa-hockey-puck{
+    color:#65B5C2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.live{
+    background-color: #06080F;
+    height: 35px;
+    color:#88888C;
+    display: flex;
+    align-items: center;
+}
+
+.live i{
+    color: #9C2490;
+    margin:0 10px;
+}
+
+.data{
+background-color: #171C2C;
+}
+
+.sport{
+    color: #5C6A94;
+    font-size:85% ;
+    font-weight: 500;    
+}
+
+.header{
+    display: flex;
+    height: 35px;
+    border-bottom: 1px solid #06080F;
+}
+
+.sport-name{
+    width: 981px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.sport-name i{
+    font-size: 150%;
+}
+
+.fa-basketball-ball{
+    color: #cb6632;
+}
+
+.fa-baseball-ball{
+    color: #71bb43;
+}
+
+.sport-name .name{
+    /* font-size:80% ;
+    font-weight: 500; */
+}
+
+.col2{
+    border-left:1px solid #06080F ;
+    width: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C2490;
+}
+
+.col3{
+    border-left:1px solid #06080F;
+    width: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C2490;
+}
+
+.col4{
+    border-left:1px solid #06080F;
+    width: 65px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C2490;
+}
+
+.fa-caret-up{
+    color: green;
+    margin-right: 3px;
+}
+
+.fa-caret-down{
+    color: red;
+    margin-right: 3px;
+}
+
+.col5{
+    border-left:1px solid #06080F;
+    width: 65px;
+    text-align: center;
+}
+
+.col5 i{
+    height: 100%;
+    width: 100%;
+    font-size: 220%;
+    padding-top: 25%;
+}
+
+.matches{
+
+}
+
+.match{
+    height: 70px;
+    display: flex;
+    border-bottom: 1px solid #06080F;
+}
+
+.col1{
+    width: 981px;
+    color: #8D94AD;
+    padding-left: 10px;
+    
+
+}
+
+.team-name{
+    width: 98%;
+}
+
+.two .col1-end{
+    color: #9C2490;
+}
+
+.one .col1-end{
+    color: #9C2490;
+}
+
+.one{
+    display: flex;
+    padding: 3px;
+}
+
+.two{
+    display: flex;
+    padding: 3px;
+}
+
+.three{
+    color: #5C6A94;
+    padding: 3px;
+    font-size: 90%;
+    display: flex;
+}
+
+.casino{
+    background: #384462;
+    height: 350px;
+}
+
+.casino-header{
+    height: 40px;
+    border-bottom: 1px solid #06080F;
+    display: flex;
+    color: white;
+}
+
+
+
+.head-left{
+    width: 93%;
+    position: relative;
+}
+
+.head-left svg{
+    height: 32px;
+    padding-top: 5px;
+}
+
+.text{
+    position: absolute;
+    top: 10px;
+}
+
+.head-right{
+    padding-top: 10px;
+}
+
+.casino-games{
+    background: #171C2C;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.casino-game{
+    background: #384462;
+    width: 310px;
+    height: 230px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cas-photo1{
+    background:url(./img/sun-of-egypt.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.cas-photo2{
+    background:url(./img/gamethumb_divinefortune.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.cas-photo3{
+    background:url(./img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.cas-name{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 90%;
+}
+
+.play{
+    height: 40px;
+    background-color: #9C2490;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #06080F;
+    cursor: pointer;
+}
+
+.p1{
+    background: url(./img/poker.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.p2{
+    background: url(./img/Backgammon_lg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.p3{
+    background: url(./img/download.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.backtotop{
+    color: #8591BD;
+    width: 85%;
+    height: 40px;
+    border: 1px solid #8591BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8%;
+    cursor: pointer;
+}
+
+.bel-nav{
+    margin: 20px 0;
+    height: 48px;
+    width: 100%;
+    background: #222941;
+    display: flex;
+    border-bottom: 4px solid #9C2490;
+}
+
+.bel-logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.bel-chips{
+    color: #9C2490;
+    font-size: xx-large;
+}
+
+.bel-row{
+    color: #8591BD;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #8591BD;
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 20px;
+    font-size: 90%;
+    align-items: center;
+    cursor: pointer;
+}
